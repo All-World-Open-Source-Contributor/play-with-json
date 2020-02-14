@@ -44,7 +44,7 @@ public class EmployeeJSONWriter {
 		System.out.println("Employee JSON String\n"+empJsonObject);
 		
 		//write to file
-		OutputStream os = new FileOutputStream("emp.txt");
+		OutputStream os = new FileOutputStream("D://singleEmployee.json");
 		JsonWriter jsonWriter = Json.createWriter(os);
 		/**
 		 * We can get JsonWriter from JsonWriterFactory also
